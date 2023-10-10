@@ -16,8 +16,7 @@ services:
       - todo-database
     environment:
       NODE_ENV: production
-         volumes: 
-      - database:/data/db
+       
     ports:
       - 3000:3000
 
